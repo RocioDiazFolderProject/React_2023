@@ -10,7 +10,7 @@ class Buscador extends Component{
         //lo enviamos al componente principal
         this.props.datosBusqueda(termino);
 
-        /*console.log(this.busquedaRef.current.value);*/
+        // console.log(this.busquedaRef.current.value);
     }
     render() {
         return(
@@ -19,10 +19,10 @@ class Buscador extends Component{
                     
                     <div className="form-group col-md-8">
                         <input ref = {this.busquedaRef} type="text" className="form-control form-control-lg"
-                        placeholder="Busca tu noticia"/>
-                    
+                        placeholder="Busca tu noticia. Ejemplo: Argentina casi campeón..."/>                    
                     </div>
-                    <div className="form-group col-md-8">
+
+                    <div className="form-group col-md-4">
                         <input type="submit" className="btn btn-lg btn-danger btn-block"
                         value="Buscar..."/>
                     
