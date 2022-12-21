@@ -19,7 +19,7 @@ class Buscador extends Component{
                     
                     <div className="form-group col-md-8">
                         <input ref = {this.busquedaRef} type="text" className="form-control form-control-lg"
-                        placeholder="Busca tu noticia. Ejemplo: Argentina casi campeón..."/>                    
+                        placeholder="Busca tu noticia. Ejemplo: Argentina Campeón..."/>                    
                     </div>
 
                     <div className="form-group col-md-4">

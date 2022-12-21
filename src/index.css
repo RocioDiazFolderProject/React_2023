@@ -15,3 +15,7 @@ code {
     monospace;
 }
 
+.contenedor{
+  min-height: 100%;
+}
+

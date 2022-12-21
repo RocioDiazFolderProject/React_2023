@@ -1,6 +1,8 @@
 //import logo from './logo.svg';
 //import './App.css';
+
 import React, {Component} from 'react';
+import Footer from './componentes/Footer';
 import Buscador from './componentes/Buscador';
 import Resultado from './componentes/Resultado';
 
@@ -87,6 +89,7 @@ render(){
             paginaSiguiente = {this.paginaSiguiente}
           />
       </div>
+      <Footer />
     </div>
   );
 }
